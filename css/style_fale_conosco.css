@@ -1,0 +1,110 @@
+
+body{
+    margin-top: 0px;
+    font-family:sans-serif;
+    
+}
+.barra_superior{
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color: rgb(187, 187, 187);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+   
+
+}
+
+/* links de navegacao da pagina */
+nav{
+    color: rgb(187, 187, 187); /* muda a cor da fonte? */
+    font-size: 15px;
+    float: right;
+    margin-top: 50px;
+}
+
+nav a{
+    color: rgb(187, 187, 187); 
+    text-decoration: none; /*tira o underline do link */
+    
+}
+
+nav a.btn_destaque{
+    margin-left: 25px;
+}
+
+.btn_destaque{
+    background-color: rgb(255, 77, 77);
+    color: white;
+    padding: 12px 40px; /* margem interna do botao sup dir inf esq. somente um ele muda todos */
+    border-radius: 3px; /* arredonda as bordas */
+    font-size: 12px;
+    text-decoration: none; 
+    
+}
+.content{
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+    
+}
+.contato{
+	width: 100%;
+	max-width: 500px;
+   
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	float:right;
+   
+	
+}
+.field{
+	padding: 10px;
+	margin-bottom: 15px;
+	border:1px solid #DDD; border-radius: 5px;
+	font-family: sans-serif;
+	font-size: 16px;
+
+}
+textarea{
+	height: 150px;
+
+}
+.content h3{
+	color: rgb(187, 187, 187);
+	font-size: 28px;
+}
+
+footer {
+    clear: both;
+	position:absolute;
+	bottom: 0px;
+    padding: 25px;
+    line-height: 100%;
+    background-color: rgb(255, 77, 77);
+    width: 100%;
+    color: #1C1C1C;/* Cor das Letras */
+  
+
+}   
+
+
+footer .roda img {
+    float: right;
+    opacity: 65%; /* Gera opacidade do item*/
+}
+div .roda a{
+    color: #1C1C1C;
+    text-decoration: none;
+    font-size: 15px;
+  
+
+}
+
